@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century ;
+    
+}
+
+body {
+    background-color:azure;
+}
+
+#main5 {
+    background-image: url(AppImages/S1.jpg);
+    min-height: 600px;
+    min-width: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav ul{
+    float: right;
+    margin-top: 25px;
+    margin: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    transition: 0.8s all;
+}
+nav ul li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 20px;
+     border: 1px solid white transparent;
+     font-weight: bold;
+ }
+
+nav ul li a:hover{
+     background-color:#fff;
+     color: #000;
+ }
+
+nav ul li.active a{
+     background-color: #fff;
+     color: #000;
+ }
+
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+    padding: 5px;
+}
+
+.sentence{
+    top: 5%;
+    right: 5%;
+    left: 5%;
+    font-size: 200px;
+    text-align: center;
+    color: #fff;
+    opacity: 90%;
+    position: absolute;
+}
+ .info img{
+    float: right;
+    margin-top: 1px;
+}
+
+.sigiriya{
+    margin: 15px;
+}
+
+#list{
+    margin: 25px;
+}
+
+#accordion{
+    margin:100px auto;
+    margin-left: 20px;
+    width: 1000px;
+}
+
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #c20000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+
+#accordion label + input[type="radio"] {
+    display: none;
+}
+
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+.footer{
+    padding: 40px 0;
+    background-color: grey;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover{
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+

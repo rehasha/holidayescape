@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="AppImages/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="AppImages/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="AppImages/favicon-16x16.png">
+        <link rel="manifest" href="AppImages/site.webmanifest">
+        <link rel="mask-icon" href="AppImages/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="AppImages/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="AppImages/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+        <title>HOLIDAYESCAPE</title>
+
+        <link rel="stylesheet" href="PurchasePage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Box Icons -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+        <div id="main8">
+            <nav>
+                <div class="logo">
+                    <img src="AppImages/logo2.jpeg">
+                </div>
+            <ul>
+                <li> <a href="Home.html">Home</a></li>
+                <li> <a href="Wildlife.html">Wildlife</a></li>
+                <li> <a href="Beaches.html">Beaches</a></li>
+                <li> <a href="Activities.html">Activities</a></li>
+                <li> <a href="HeritageSite01.html">Heritage Site 01</a></li>
+                <li> <a href="HeritageSite02.html">Heritage Site 02</a></li>
+                <li class="active"> <a href="PurchasePage.html">Purchase & Donate Page</a></li>
+            </ul>
+            </nav>
+        </div> 
+        </header>
+        <section class="shop container">
+            <h2 class="section title">Local Merchandise for Tourists</h2>
+        </section>
+        <section class="shop-content">
+            <!--box 1-->
+            <div class="product-box">
+                <img src="AppImages/Bare.jpg" alt="" class="product-img">
+                <h2 class="product-title">BareFoot</h2>
+                <a href="https://barefootceylon.com/">
+                <button>Click</button>
+                </a>
+            </div>
+            <!--box 2-->
+            <div class="product-box">
+                <img src="AppImages/TROPIC.jpg" alt="" class="product-img">
+                <h2 class="product-title">Tropic Of Linen</h2>
+                <a href="https://www.lonelyplanet.com/sri-lanka/colombo/shopping/tropic-of-linen/a/poi-sho/1567840/357443">
+                <button>Click</button>
+                </a>
+            </div>
+            <!--box 3-->
+            <div class="product-box">
+                <img src="AppImages/Lakarcade01.webp" alt="" class="product-img">
+                <h2 class="product-title">Lakarcade</h2>
+                <a href="https://lakarcade.lk/">
+                <button>Click</button>
+                </a>
+            </div>
+            <!--box 4-->
+            <div class="product-box">
+                <img src="AppImages/Laksala.jpg" alt="" class="product-img">
+                <h2 class="product-title">Laksala</h2>
+                <a href="https://ceylonstores.lk/">
+                <button>Click</button>
+                </a>
+            </div>
+            <!--box 5-->
+            <div class="product-box">
+                <img src="AppImages/odel.jpg" alt="" class="product-img">
+                <h2 class="product-title">ODEL</h2>
+                <a href="https://odel.lk/">
+                <button>Click</button>
+                </a>
+            </div>
+            <!--box 6-->
+            <div class="product-box">
+                <img src="AppImages/House01.jpg" alt="" class="product-img">
+                <h2 class="product-title">House Of Fashion</h2>
+                <a href="https://houseoffashions.lk/contact-us/">
+                <button>Click</button>
+                </a>
+            </div>
+        </section>
+        <section id="d1">
+            <h2><i>Donation</i></h2>
+            <p>
+                Donations are important.You can support us by making a regular or one-off tax-deductible
+                donation. Your donation will help to preserve ecosystems and native animals for generations 
+                to come and will help make preservations of precious sites possible.
+            </p>
+        </section>
+        
+        <section id="d1">
+            <div class="wrapper">
+                <form>
+                    <fieldset>
+                        <legend><h2>Donation Form</h2></legend>
+                            <label>Select a currency</label><br>
+                                <input type="radio" id="usd" name="currency" value="United States Dollar (USD)">
+                            <label for="USD">United States Dollar (USD)</label><br>               
+                                <input type="radio" id="eur" name="currency" value="Euro (EUR)">
+                            <label for="EUR">Euro (EUR)</label><br><br>
+    
+                        <label>Select an amount</label><br>
+                            <input type="radio" id="b1" name="amount">
+                        <label for="b1">100</label><br>
+                            <input type="radio" id="b2" name="amount">
+                        <label for="b2">250</label><br>
+                            <input type="radio" id="b3" name="amount">
+                        <label for="b3">500</label><br><br>
+    
+                        <div class="inputBox">
+                            <label>Other Amount</label><br>
+                                <input type="text"><br><br>
+                        </div>
+    
+                        <label>Use the donation for:</label>
+                        <select id="donation">
+                            <option value="option">Select</option>
+                            <option value="wildlife">Donation for wildlife</option>
+                            <option value="heritage">Donation for heritage</option>
+                        </select><br> <br>
+    
+                        <p><h2>Mandatory Information</h2></p><br><br>
+    
+                        <div class="inputBox">
+                            <label>First name* &nbsp; &nbsp; &nbsp;</label><br>
+                                <input type="text" name="fname" maxlength="10" required><br><br>
+                        </div>
+    
+                        <div class="inputBox">
+                            <label>Last name* &nbsp; &nbsp; &nbsp;</label><br>
+                                <input type="text" name="lname" maxlength="10" required><br><br>
+                        </div>
+    
+                        <div class="inputBox">
+                            <label>Email* &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</label><br>
+                                <input type="email" name="email" placeholder="example@example.com" required><br><br>
+                        </div>
+    
+                        <div class="inputBox">
+                            <label>Address*</label><br>
+                                <input type="text" maxlength="50" placeholder="number-street" required><br><br>
+                        </div>
+    
+                        <div class="inputBox">
+                            <label>Country*</label><br>
+                                <input type="text" name="country" placeholder="America" required><br><br>
+                        </div>
+    
+                        <input type="submit" name="regsubmit" value="submit" class="Submit-btn"><br>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-whatsapp"></a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+            </ul>
+            <p class="copyright">
+                Rehasha @2022
+            </p>
+        </section>  
+    </body>
+    </html>

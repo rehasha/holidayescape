@@ -6,7 +6,10 @@
 }
 
 body {
-    background-color:azure;
+    background-image: url(AppImages/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
 }
 
 #main5 {
@@ -76,55 +79,60 @@ nav ul li.active a{
     margin: 25px;
 }
 
-#accordion{
-    margin:100px auto;
-    margin-left: 20px;
-    width: 1000px;
+.sec1, .sec2, .sec3, .sec4, .sec5{
+    margin: 20px;
+    background-color: white;
+    width: 90%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: auto;
+    box-shadow: 0px 0px 8px 5px #0000003b;
+    border-radius: 10px;
+
 }
 
-#accordion li{
-    list-style: none;
-    width: 100%;
-    margin-bottom: 10px;
-    background: #fff;
-    padding: 10px;
-    border-radius: 4px;
+.sec5 img{
+    float: right;
 }
 
-#accordion li label{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    color: #c20000;
-    font-weight: bold;
-    font-size: 20px;
+
+@media only screen and (max-device-width: 1200px){
+    .sentence{
+        font-size: 80px;
+        margin-top: 250px;
+    }
+        /* media nav tag */
+    nav ul{
+        float: center;
+        margin-top: 25px;
+        margin: right;
+        width: 100%;
+    }
+        
+    nav ul li{
+        text-align: right;
+        display: inline-block;
+        list-style-type: none;
+        transition: 0.8s all;
+        width: 100%;
+        padding: 10px;
+    }
+        
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid white transparent;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .sec2 img{
+        width: 200px;
+    }
 }
 
-#accordion li label span{
-    transform: rotate(90deg);
-    font-size: 22px;
-    color: #333;
-}
 
-#accordion label + input[type="radio"] {
-    display: none;
-}
-
-#accordion .content{
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
-
-#accordion label + input[type="radio"]:checked + .content{
-    max-height: 400px;
-}
 .footer{
     padding: 40px 0;
     background-color: grey;

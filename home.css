@@ -10,15 +10,21 @@ ul, ol{
 
 body {
     background-color:azure;
+    background-image: url(AppImages/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
 }
 
 #main{
     background-image: url(AppImages/Hikkaduwas-beach-and-night-life-SS23NE.jpg);
-    min-height: 600px;
-    min-width: 500px;
+    width: 100%;
+    height: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 0;
 }
 
 nav ul{
@@ -67,7 +73,7 @@ nav ul li.active a{
     
     /* h3 position and color */
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 100px;
     text-align: center;
 }
 
@@ -164,13 +170,60 @@ nav ul li.active a{
     font-size: 13px;
     color: #aaa;
 }
+#home-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    text-align: justify;
+}
+#home-12{
+    padding: 10px;
+}
 
-
-
-@media only screen and (max-device-width: 990px){
+@media only screen and (max-device-width: 1200px){
     #train{
         width: 100%;
         height: auto;
+    }
+    /* media nav tag */
+    nav ul{
+        float: center;
+        margin-top: 25px;
+        margin: right;
+        width: 100%;
+    }
+    
+    nav ul li{
+        text-align: right;
+        display: inline-block;
+        list-style-type: none;
+        transition: 0.8s all;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    nav ul li a{
+         text-decoration: none;
+         color: #fff;
+         padding: 5px 20px;
+         border: 1px solid white transparent;
+         font-weight: bold;
+         width: 100%;
+    }
+    /* end*/
+    #big{
+        width: 100px;
+        height: auto;
+    }
+    #home-1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #home-12 img{
+        margin-right: 20%;
+    }
+    .text{
+       font-size: 50px;
     }
 }
  /* WILD LIFE*/ 
@@ -218,6 +271,16 @@ nav ul li.active a{
     width: 250px;
     height: auto;
 }
-
+@media only screen and (max-device-width: 1200px){
+    .sentence{
+        font-size: 80px;
+        margin-top: 300px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 20px;
+    }
+}
 
     
